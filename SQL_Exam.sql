@@ -26,7 +26,7 @@ FROM
 `trn_teacher` `a`
 LEFT OUTER JOIN `trn_teacher_role` `b` ON `a`.`id` = `b`.`teacher_id`
 group by `a`.`id`
-order by `b`.`id` asc
+order by `b`.`id` asc;
 
 -- 2
 
